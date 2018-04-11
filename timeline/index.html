@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>时光轴 - 平安喜乐</title>
+    <title>时光机 - 平安喜乐</title>
     <meta http-equiv="content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="./css/screen.css" type="text/css" media="screen">
     <link rel="stylesheet" href="./css/responsive.css" type="text/css" media="screen">
@@ -13,7 +13,7 @@
 <audio src="./audio/karunesh_follow_your_heart.mp3" autoplay></audio>
 
 <div class="container">
-<a href="http://sxxgsy.github.io/"><div class="avatar"></div></a>
+<a href="http://sxxgsy.github.io/"><img class="avatar" src="/sxx5.png" alt="My profile picture" /></a>
 <h1>平安喜乐</h1>
 <h2 id="subtitle">轨迹：2013-至今</h2>
 
@@ -26,38 +26,55 @@
 <div class="timelineMajor">
     <h2 class="timelineMajorMarker"><span>2017</span></h2>
     <!-- /.timelineMinor -->
-</div>
-<div class="timelineMajor">
-    <h2 class="timelineMajorMarker"><span>2013</span></h2>
-    <!-- /.timelineMinor -->
     <dl class="timelineMinor">
-        <dt id="20130621"><a>本科毕业</a></dt>
-        <dd class="timelineEvent" id="20130621EX" style="display:none;">
-            <h3>2017.06.18</h3>
+        <dt id="20170907"><a>研究生生涯开启</a></dt>
+        <dd class="timelineEvent" id="20170907EX" style="display:none;">
+            <h3>2017.09.07</h3>
             <div class="media">
-                <img src="./assets/daxuebiye-3.jpg" width="240" height="180">
-                <img src="./assets/daxuebiye-2.jpg" width="240" height="180">
+                <img src="/timeline/images/xjtu.jpeg" width="240" height="180">
+                <img src="/timeline/images/yjs.JPG" width="240" height="180" >
             </div>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>Hello,XJTU; Hello,a new begining</p>
+            <p>不要害怕结局，结局只是一个幻影，每一个结局都意味着新的开始</p>
+            <p>给自己一段沉淀的时光，迎接一个未知全新的自己</p>
             <br class="clear">
         </dd>
         <!-- /.timelineEvent -->
     </dl>
 </div>
 <div class="timelineMajor">
-    <h2 class="timelineMajorMarker"><span>2009</span></h2>
+    <h2 class="timelineMajorMarker"><span>2017</span></h2>
     <!-- /.timelineMinor -->
     <dl class="timelineMinor">
-        <dt id="20090822"><a>我的大学</a></dt>
-        <dd class="timelineEvent" id="20090822EX" style="display:none;">
+        <dt id="20170618"><a>本科毕业</a></dt>
+        <dd class="timelineEvent" id="20170618EX" style="display:none;">
+            <h3>2017.06.18</h3>
+            <div class="media">
+                <img src="/timeline/images/biye.jpg" width="180" height="240">
+                <img src="/timeline/images/biye1.jpg" width="240" height="180" >
+            </div>
+            <p>Googbye,ZJUT;再见，那些青葱岁月</p>
+            <p>每个少年的眼睛，黑白分明，犹如幕布</p>
+            <p>勇敢，冲动，懦弱，好奇，渴望，困惑，思索，伤心，快乐...所有属于青春的绚烂色彩都在那块黑白分明的幕布中上演</p>
+            <p>当一切落幕时，我得到了想得到的一些，失去了不想失去的一些，但是时间依然快速推着人向前，在你还未反应过来时，已经处于一个新的开始</p>
+            <p>那么些个平淡无奇的故事开始于那个美丽的江南杭城，也终究在那里划上了一个句号。再见，我的大学<p>
+            <br class="clear">
+        </dd>
+        <!-- /.timelineEvent -->
+    </dl>
+</div>
+<div class="timelineMajor">
+    <h2 class="timelineMajorMarker"><span>2013</span></h2>
+    <!-- /.timelineMinor -->
+    <dl class="timelineMinor">
+        <dt id="20130910"><a>我的大学</a></dt>
+        <dd class="timelineEvent" id="20130910EX" style="display:none;">
             <h3>2013.09.10</h3>
             <div class="media">
-                <!--<img src="http://ose5hybez.bkt.clouddn.com/time/xidian.jpg" width="240" height="180">-->
+                <img src="/timeline/images/zjut.jpeg" width="240" height="180">-->
             </div>
-            <p>Hello,ZJUT</p>
-            <p>青春是手牵手坐上了永不回头的火车~五月天</p>
+            <p>Hello,ZJUT;Hello,World</p>
+            <p>青春是手牵手坐上了永不回头的火车   by五月天</p>
             <p>我的大学开始了。</p>
             <br class="clear">
         </dd>
@@ -81,7 +98,7 @@
 <script>
     $(document).ready(function () {
         $.timeliner({
-            startOpen: ['#20171005EX','#20170701EX','#20161212EX','#20160706EX','#20160622EX','#20130621EX','#20090822EX'],
+            startOpen: ['#20170907EX','#20170618EX','#20130910EX'],
             expandAllText: '+ 全部展开',
             collapseAllText: '- 全部折叠'
         });
