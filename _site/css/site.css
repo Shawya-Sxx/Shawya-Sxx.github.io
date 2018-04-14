@@ -108,7 +108,7 @@ header {
 .header-container {
   /*border-bottom: 1px solid #eee;*/
   margin-bottom: 1.5em;
-  background: #48C9B0; /*#f3f3f3;*/
+  background: #87CEEB; /*#f3f3f3;*/
 }
 
 header nav {
@@ -201,7 +201,7 @@ section ul{
 blockquote {
   margin: 1em 0 1em 0em;
   color: #666;
-  border-left: 0.4em solid #48C9B0;
+  border-left: 0.4em solid #87CEEB;
   padding-left: 0.6em;
   font-style: italic;
 }
@@ -468,7 +468,7 @@ header h1.title a:hover {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-transition: 0.25s linear;
   transition: 0.25s linear;
-  background-color: #48C9B0;
+  background-color: #87CEEB;
   color: #ffffff !important;
   text-decoration: none;
 }
